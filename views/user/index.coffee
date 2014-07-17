@@ -47,8 +47,8 @@ script id:"userTemplate", type:"text/template", style:"display: none", ->
       button '.btn.btn-info.edit', -> "编辑"
       button '.btn.btn-danger.delete', -> "删除"
 script type:"text/javascript", src:"/js/app/user/model/user.js"
-script type:"text/javascript", src:"/js/app/user/controller/index.js"
-script type:"text/javascript", src:"/js/app/user/controller/edit.js"
+script type:"text/javascript", src:"/js/app/user/view/index.js"
+script type:"text/javascript", src:"/js/app/user/view/edit.js"
 coffeescript ->
   userRouter = new UserRouter()
   Backbone.history.start()
